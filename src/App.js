@@ -4,8 +4,8 @@ import './App.css';
 
 const App = () => {
 
-  const APP_ID = "06678112";
-  const APP_KEY = "f3eb988da60219a026750222a81f6148";
+  const APP_ID = process.env.REACT_APP_APP_ID;
+  const APP_KEY = process.env.REACT_APP_APP_KEY;
   // const API_URL = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&from=0&to=10`;
 
   // Set some state
